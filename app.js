@@ -66,7 +66,7 @@ const sessionOptions={
 };
 
 app.get("/", (req, res) => {
-  res.redirect("/explore");
+  res.redirect("/listings");
 });
 
 // app.get("/",(req,res)=>{
